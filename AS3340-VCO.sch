@@ -226,8 +226,6 @@ Wire Wire Line
 	4250 3350 4750 3350
 Wire Wire Line
 	4500 3250 4500 3200
-Wire Wire Line
-	7200 3050 7200 2750
 $Comp
 L power:+12V #PWR026
 U 1 1 5F978DB7
@@ -1290,22 +1288,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1800 7200 50  0001 C CNN
 	5    1750 7000
 	0    1    1    0   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5F954D5F
-P 7500 2750
-F 0 "#FLG02" H 7500 2825 50  0001 C CNN
-F 1 "PWR_FLAG" V 7500 2878 50  0000 L CNN
-F 2 "" H 7500 2750 50  0001 C CNN
-F 3 "~" H 7500 2750 50  0001 C CNN
-	1    7500 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7500 2750 7200 2750
-Connection ~ 7200 2750
-Wire Wire Line
-	7200 2750 7200 2700
 NoConn ~ 9400 5200
 NoConn ~ 9400 4550
 NoConn ~ 9400 5900
@@ -1763,4 +1745,6 @@ F 3 "" H 7200 5100 50  0001 C CNN
 	1    7200 5100
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	7200 2700 7200 3050
 $EndSCHEMATC
