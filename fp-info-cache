@@ -1,4 +1,4 @@
-19065550524041259
+19096047279164061
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50721,6 +50721,83 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+Eurocad
+Alpha9mmPot
+
+
+0
+5
+3
+Eurocad
+B3W9_1LED
+
+
+0
+6
+6
+Eurocad
+BA56_3DIG_7SEG
+
+
+0
+12
+12
+Eurocad
+DC_JACK
+
+
+0
+3
+3
+Eurocad
+LED3mm
+LED 3mm round vertical
+LED  3mm round vertical
+0
+2
+2
+Eurocad
+LP4OA1PBCT
+
+
+0
+8
+8
+Eurocad
+MIDI_DIN5
+Din 5 (MIDI), Pro Signal P/N PSG03463
+
+0
+5
+5
+Eurocad
+MOUSEBITE1mm
+
+
+0
+0
+0
+Eurocad
+PJ301M-12
+
+
+0
+3
+3
+Eurocad
+RGBLED10mm
+
+
+0
+4
+4
+Eurocad
+TL1105SPF250Q
+
+
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -76383,56 +76460,112 @@ rotary encoder
 0
 5
 4
-SeattleSynths
+Seattle_Synths
 CP_Radial_D5.0mm_P2.50mm
 CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
 0
 2
 2
-SeattleSynths
+Seattle_Synths
+CUI_MJ-63052A
+
+
+0
+3
+3
+Seattle_Synths
 C_Disc_D7.5mm_W2.5mm_P5.00mm
 C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*2.5mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
 C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor
 0
 2
 2
-SeattleSynths
+Seattle_Synths
+DIP-8_W7.62mm
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+Seattle_Synths
+DIP-16_W7.62mm
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+16
+16
+Seattle_Synths
 DIP-18_W7.62mm
 18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
 18
 18
-SeattleSynths
+Seattle_Synths
+D_DO-35_SOD27_P7.62mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
+Seattle_Synths
 Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
 TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
 WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
 0
 3
 3
-SeattleSynths
+Seattle_Synths
 LED_D5.0mm
 LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
 LED diameter 5.0mm 2 pins
 0
 2
 2
-SeattleSynths
+Seattle_Synths
+PinHeader_2x05_P2.54mm_Vertical
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+Seattle_Synths
 Potentiometer_Alpha_RD901F-40-00D_Single_Vertical
 Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113
 potentiometer vertical 9mm single
 0
 5
 3
-SeattleSynths
+Seattle_Synths
+Potentiometer_Runtron_RM-065_Vertical
+Potentiometer, vertical, Trimmer, RM-065 http://www.runtron.com/down/PDF%20Datasheet/Carbon%20Film%20Potentiometer/RM065%20RM063.pdf
+Potentiometer Trimmer RM-065
+0
+3
+3
+Seattle_Synths
 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 2
 2
-SeattleSynths
+Seattle_Synths
+SW_M2044SS1W03
+
+
+0
+12
+12
+Seattle_Synths
+SW_PUSH_6mm_H5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm
+tact sw push 6mm
+0
+4
+2
+Seattle_Synths
 TestPoint_Pad_4.0x4.0mm
 SMD rectangular pad as test Point, square 4.0mm side length
 test point SMD pad rectangle square
