@@ -1511,17 +1511,6 @@ F 3 "" H 1450 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
-U 1 1 5FADF82D
-P 1300 6450
-F 0 "C8" V 1048 6450 50  0000 C CNN
-F 1 "10uF" V 1139 6450 50  0000 C CNN
-F 2 "Seattle_Synths:CP_Radial_D5.0mm_P2.50mm" H 1338 6300 50  0001 C CNN
-F 3 "~" H 1300 6450 50  0001 C CNN
-	1    1300 6450
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0115
 U 1 1 5FAE0AE7
 P 1150 6450
@@ -1534,17 +1523,6 @@ F 3 "" H 1150 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1450 6450 1450 6000
-$Comp
-L Device:C C10
-U 1 1 5FB0085B
-P 2200 6450
-F 0 "C10" V 1948 6450 50  0000 C CNN
-F 1 "10uF" V 2039 6450 50  0000 C CNN
-F 2 "Seattle_Synths:CP_Radial_D5.0mm_P2.50mm" H 2238 6300 50  0001 C CNN
-F 3 "~" H 2200 6450 50  0001 C CNN
-	1    2200 6450
-	0    1    1    0   
-$EndComp
 $Comp
 L power:+12V #PWR0116
 U 1 1 5FB01381
@@ -1747,4 +1725,26 @@ F 3 "" H 7200 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 2700 7200 3050
+$Comp
+L Device:C_Polarized C10
+U 1 1 5FB5200C
+P 2200 6450
+F 0 "C10" V 2455 6450 50  0000 C CNN
+F 1 "10uF" V 2364 6450 50  0000 C CNN
+F 2 "Seattle_Synths:CP_Radial_D5.0mm_P2.50mm" H 2238 6300 50  0001 C CNN
+F 3 "~" H 2200 6450 50  0001 C CNN
+	1    2200 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Polarized C8
+U 1 1 5FB5D9FF
+P 1300 6450
+F 0 "C8" V 1555 6450 50  0000 C CNN
+F 1 "10uF" V 1464 6450 50  0000 C CNN
+F 2 "Seattle_Synths:CP_Radial_D5.0mm_P2.50mm" H 1338 6300 50  0001 C CNN
+F 3 "~" H 1300 6450 50  0001 C CNN
+	1    1300 6450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
