@@ -1,4 +1,4 @@
-19097652055851061
+19099256877987061
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76572,6 +76572,13 @@ tact sw push 6mm
 0
 4
 2
+Seattle_Synths
+SW_Toggle_Blue_wSlots
+SW Toggle
+SW Toggle
+0
+3
+3
 Seattle_Synths
 TestPoint_Pad_4.0x4.0mm
 SMD rectangular pad as test Point, square 4.0mm side length

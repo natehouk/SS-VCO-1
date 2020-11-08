@@ -1,46 +1,50 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
-1,Unpolarized capacitor,C,C6,500pF,C_Disc_D7.5mm_W2.5mm_P5.00mm,1,~
-2,Unpolarized capacitor,C,C2 C3 C7,1nF,C_Disc_D7.5mm_W2.5mm_P5.00mm,3,~
-3,Unpolarized capacitor,C,C1 C5,10nF,C_Disc_D7.5mm_W2.5mm_P5.00mm,2,~
-4,Unpolarized capacitor,C,C4,100nF,C_Disc_D7.5mm_W2.5mm_P5.00mm,1,~
-5,"100V 0.15A standard switching diode, DO-35",1N4148,D1 D2,1N4148,D_DO-35_SOD27_P7.62mm_Horizontal,2,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
-6,Zener diode,D_Zener,D3,D_Zener,D_DO-35_SOD27_P7.62mm_Horizontal,1,~
-7,"Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)",AudioJack2_SwitchT,J1 J2 J3 J4 J5 J6 J7 J8 J9 J10 J11,1V/OCT_INPUT,Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,11,~
-8,Resistor,R,R6 R16,470R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,~
-9,Resistor,R,R19,680R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-10,Resistor,R,R24 R25 R26,1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,3,~
-11,Resistor,R,R18,1K8,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-12,Resistor,R,R20,2K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-13,Resistor,R,R13,5K6,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-14,Resistor,R,R8 R9,10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,~
-15,Resistor,R,R7,20K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-16,Resistor,R,R12,24K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-17,Resistor,R,R10 R11 R21,47K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,3,~
-18,Resistor,R,R2 R3 R22 R23,100K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,~
-19,Resistor,R,R1,270K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-20,Resistor,R,R4,300K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-21,Resistor,R,R15 R17,1M,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,~
-22,Resistor,R,R14,1M5,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-23,Resistor,R,R5,3M3,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
-24,Trim-potentiometer,R_Potentiometer_Trim,RV6 RV7,10K,Potentiometer_Runtron_RM-065_Vertical,2,~
-25,Potentiometer,R_Potentiometer,RV1 RV2 RV3 RV5 RV8,100K,Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,5,~
-26,Trim-potentiometer,R_Potentiometer_Trim,RV4,100K,Potentiometer_Runtron_RM-065_Vertical,1,~
-27,"Switch, single pole double throw",SW_SPDT,SW1,SW_SPDT,SW_Slide_1P2T_CK_OS102011MS2Q,1,~
-28,"Voltage Controlled Oscillator (VCO), DIP-16/SOIC-16",AS3340,U2,AS3340,DIP-16_W7.62mm,1,http://www.alfarzpp.lv/eng/sc/AS3340.pdf
-29,"Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14",TL074,U1,TL074,DIP-14_W7.62mm,1,http://www.ti.com/lit/ds/symlink/tl071.pdf
+1,Unpolarized capacitor,C,C2 C3 C7,1nF,C_Disc_D7.5mm_W2.5mm_P5.00mm,3,~
+2,Unpolarized capacitor,C,C1 C5,10nF,C_Disc_D7.5mm_W2.5mm_P5.00mm,2,~
+3,Unpolarized capacitor,C,C4 C9 C11,100nF,C_Disc_D7.5mm_W2.5mm_P5.00mm,3,~
+4,Unpolarized capacitor,C,C8 C10,10uF,CP_Radial_D5.0mm_P2.50mm,2,~
+5,Unpolarized capacitor,C,C6,500pF (Styrene),C_Disc_D7.5mm_W2.5mm_P5.00mm,1,~
+6,"100V 0.15A standard switching diode, DO-35",1N4148,D1 D2,1N4148,D_DO-35_SOD27_P7.62mm_Horizontal,2,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+7,Light emitting diode,LED,D4,LED,LED_D5.0mm,1,~
+8,Zener diode,D_Zener,D3,Zener 10V,D_DO-35_SOD27_P7.62mm_Horizontal,1,~
+9,"Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)",AudioJack2_SwitchT,J1 J2 J3 J4 J5 J6 J7 J8 J9 J10 J11,1V/OCT_INPUT,Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,11,~
+10,,EURO_PWR_2x5,J12,EURO_PWR_2x5,PinHeader_2x05_P2.54mm_Vertical,1,
+11,Resistor,R,R27,330R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+12,Resistor,R,R6 R16,470R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,~
+13,Resistor,R,R19,680R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+14,Resistor,R,R24 R25 R26,1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,3,~
+15,Resistor,R,R18,1K8,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+16,Resistor,R,R20,2K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+17,Resistor,R,R13,5K6,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+18,Resistor,R,R8 R9,10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,~
+19,Resistor,R,R7,20K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+20,Resistor,R,R12,24K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+21,Resistor,R,R10 R11 R21,47K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,3,~
+22,Resistor,R,R2 R3 R22 R23,100K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,~
+23,Resistor,R,R1,270K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+24,Resistor,R,R4,300K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+25,Resistor,R,R15 R17,1M,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,~
+26,Resistor,R,R14,1M5,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+27,Resistor,R,R5,3M3,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,~
+28,Trim-potentiometer,R_Potentiometer_Trim,RV6 RV7,10K,Potentiometer_Runtron_RM-065_Vertical,2,~
+29,Potentiometer,R_Potentiometer,RV1 RV2 RV3 RV5 RV8,100K,Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,5,~
+30,Trim-potentiometer,R_Potentiometer_Trim,RV4,100K,Potentiometer_Runtron_RM-065_Vertical,1,~
+31,"Switch, single pole double throw",SW_SPDT,SW1,SW_SPDT,SW_Slide_1P2T_CK_OS102011MS2Q,1,~
+32,"Voltage Controlled Oscillator (VCO), DIP-16/SOIC-16",AS3340,U2,AS3340,DIP-16_W7.62mm,1,http://www.alfarzpp.lv/eng/sc/AS3340.pdf
+33,"Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14",TL074,U1,TL074,DIP-14_W7.62mm,1,http://www.ti.com/lit/ds/symlink/tl071.pdf
 
 
 
 
 
-Component Groups:,29
-Component Count:,58
-Fitted Components:,58
+Component Groups:,33
+Component Count:,65
+Fitted Components:,65
 Number of PCBs:,1
-Total components:,58
+Total components:,65
 Schematic Version:,1
-Schematic Date:,2020-10-25
-PCB Variant:,default
-BoM Date:,Sun 25 Oct 2020 08:40:22 AM CET
+Schematic Date:,2020-11-04
+PCB Variant:,['default']
+BoM Date:,Sun 08 Nov 2020 07:47:34 AM CET
 Schematic Source:,AS3340-VCO.sch
 KiCad Version:,Eeschema 5.1.7
