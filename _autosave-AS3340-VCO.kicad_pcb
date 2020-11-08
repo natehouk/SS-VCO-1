@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "/home/natehouk/Documents/AS3340-VCO/Gerbers/"))
+      (outputdirectory "Gerbers/"))
   )
 
   (net 0 "")

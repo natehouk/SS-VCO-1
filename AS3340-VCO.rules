@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1959)
+    (start_pass_no 3568)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -69,6 +69,7 @@
     "Net-(R3-Pad1)" "Net-(R4-Pad1)" "Net-(R5-Pad1)" +12V "Net-(R7-Pad2)" "Net-(R13-Pad1)" "Net-(R10-Pad2)" /PWM
     "Net-(R12-Pad1)" "Net-(R12-Pad2)" "Net-(R13-Pad2)" "/LINEAR_FM" "Net-(R17-Pad2)" "Net-(R18-Pad2)" "-12V" /SQUARE
     "Net-(R22-Pad2)" "Net-(R23-Pad2)" "Net-(R24-Pad2)" "Net-(R26-Pad2)" "Net-(RV5-Pad2)" "Net-(RV7-Pad1)" /SAWTOOTH /TRIANGLE
+    "Net-(D4-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
