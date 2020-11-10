@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.7"
     },
-    "CreationDate":  "2020-11-08T18:51:04+01:00"
+    "CreationDate":  "2020-11-09T18:52:16+01:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "AS3340-VCO",
       "GUID": "41533333-3430-42d5-9643-4f2e6b696361",
-      "Revision": "rev?"
+      "Revision": "1"
     },
     "Size":
     {
