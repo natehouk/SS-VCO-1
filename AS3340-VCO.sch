@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SS-VCO-1"
-Date "2020-11-04"
-Rev "1"
+Date "2020-12-05"
+Rev "2"
 Comp "Seattle Synths"
 Comment1 "Designed by Nathaniel Houk"
 Comment2 ""
@@ -1053,17 +1053,6 @@ F 3 "" H 5250 3650 50  0001 C CNN
 	1    5250 3650
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R17
-U 1 1 5FD36F32
-P 5700 3950
-F 0 "R17" V 5493 3950 50  0000 C CNN
-F 1 "1M" V 5584 3950 50  0000 C CNN
-F 2 "Seattle_Synths:R_0603_1608Metric" V 5630 3950 50  0001 C CNN
-F 3 "~" H 5700 3950 50  0001 C CNN
-	1    5700 3950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5550 3950 5400 3950
 Wire Wire Line
@@ -1746,5 +1735,16 @@ F 2 "Seattle_Synths:CP_Radial_D5.0mm_P2.50mm" H 1338 6300 50  0001 C CNN
 F 3 "~" H 1300 6450 50  0001 C CNN
 	1    1300 6450
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5FD36F32
+P 5700 3950
+F 0 "R17" V 5493 3950 50  0000 C CNN
+F 1 "1M" V 5584 3950 50  0000 C CNN
+F 2 "Seattle_Synths:R_0603_1608Metric" V 5630 3950 50  0001 C CNN
+F 3 "~" H 5700 3950 50  0001 C CNN
+	1    5700 3950
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

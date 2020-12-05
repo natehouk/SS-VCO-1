@@ -110,7 +110,7 @@ U 1 1 5F94D521
 P 8600 1200
 F 0 "D3" V 8554 1280 50  0000 L CNN
 F 1 "Zener 10V" V 8645 1280 50  0000 L CNN
-F 2 "Seattle_Synths:D_0603_1608Metric" H 8600 1200 50  0001 C CNN
+F 2 "Seattle_Synths:D_DO-35_SOD27_P7.62mm_Horizontal" H 8600 1200 50  0001 C CNN
 F 3 "~" H 8600 1200 50  0001 C CNN
 	1    8600 1200
 	0    1    1    0   
@@ -385,7 +385,7 @@ U 1 1 5F96DE2B
 P 4250 5350
 F 0 "D2" V 4296 5270 50  0000 R CNN
 F 1 "1N4148" V 4205 5270 50  0000 R CNN
-F 2 "Seattle_Synths:D_0603_1608Metric" H 4250 5175 50  0001 C CNN
+F 2 "Seattle_Synths:D_DO-35_SOD27_P7.62mm_Horizontal" H 4250 5175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4250 5350 50  0001 C CNN
 	1    4250 5350
 	0    -1   -1   0   
@@ -396,7 +396,7 @@ U 1 1 5F96CD2F
 P 4250 5050
 F 0 "D1" V 4296 4970 50  0000 R CNN
 F 1 "1N4148" V 4205 4970 50  0000 R CNN
-F 2 "Seattle_Synths:D_0603_1608Metric" H 4250 4875 50  0001 C CNN
+F 2 "Seattle_Synths:D_DO-35_SOD27_P7.62mm_Horizontal" H 4250 4875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4250 5050 50  0001 C CNN
 	1    4250 5050
 	0    -1   -1   0   
@@ -1053,17 +1053,6 @@ F 3 "" H 5250 3650 50  0001 C CNN
 	1    5250 3650
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R17
-U 1 1 5FD36F32
-P 5700 3950
-F 0 "R17" V 5493 3950 50  0000 C CNN
-F 1 "1M" V 5584 3950 50  0000 C CNN
-F 2 "Seattle_Synths:R_0603_1608Metric" V 5630 3950 50  0001 C CNN
-F 3 "~" H 5700 3950 50  0001 C CNN
-	1    5700 3950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5550 3950 5400 3950
 Wire Wire Line
@@ -1688,7 +1677,7 @@ U 1 1 5FFA391F
 P 4250 2500
 F 0 "D4" H 4243 2245 50  0000 C CNN
 F 1 "LED" H 4243 2336 50  0000 C CNN
-F 2 "Seattle_Synths:LED_D5.0mm" H 4250 2500 50  0001 C CNN
+F 2 "Seattle_Synths:D_0603_1608Metric" H 4250 2500 50  0001 C CNN
 F 3 "~" H 4250 2500 50  0001 C CNN
 	1    4250 2500
 	-1   0    0    1   
@@ -1746,5 +1735,16 @@ F 2 "Seattle_Synths:CP_Radial_D5.0mm_P2.50mm" H 1338 6300 50  0001 C CNN
 F 3 "~" H 1300 6450 50  0001 C CNN
 	1    1300 6450
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5FD36F32
+P 5700 3950
+F 0 "R17" V 5493 3950 50  0000 C CNN
+F 1 "1M" V 5584 3950 50  0000 C CNN
+F 2 "Seattle_Synths:R_0603_1608Metric" V 5630 3950 50  0001 C CNN
+F 3 "~" H 5700 3950 50  0001 C CNN
+	1    5700 3950
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
